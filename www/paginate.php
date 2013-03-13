@@ -1,9 +1,13 @@
 <?php
+// output
+// just for testing purposes
 include_once("pagination.class.php");
 
 
-$paginate = new oldPagination();
-$paginateOld = new Pagination();
+// couple of examples
+
+$paginate = new oldPagination(); // this is used for old pagination
+$paginateOld = new Pagination();	//
 
 
 $total_items = 250;
